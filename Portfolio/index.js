@@ -45,19 +45,19 @@ const projectContent = document.getElementById("projectsContent");
 
 const projectImagesArray = [
     [
-        "/Icons/CurrencyConverterImage1.jpg",
-        "/Icons/CurrencyConverterImage2.jpg",
-        "/Icons/CurrencyConverterImage3.jpg",
-        "/Icons/NoteProjectImage1.jpg",
+        "Icons/CurrencyConverterImage1.jpg",
+        "Icons/CurrencyConverterImage2.jpg",
+        "Icons/CurrencyConverterImage3.jpg",
+        "Icons/NoteProjectImage1.jpg",
     ],
     [
-        "/Icons/NoteProjectImage2.jpg",
-        "/Icons/NoteProjectImage3.jpg",
-        "/Icons/NoteProjectImage4.jpg",
-        "/Icons/NoteProjectImage5.jpg",
+        "Icons/NoteProjectImage2.jpg",
+        "Icons/NoteProjectImage3.jpg",
+        "Icons/NoteProjectImage4.jpg",
+        "Icons/NoteProjectImage5.jpg",
     ],
     [
-        "/Icons/NoteProjectImage6.jpg",
+        "Icons/NoteProjectImage6.jpg",
     ]
 ];
 showProjectImagesWithPagination(pageNo);
