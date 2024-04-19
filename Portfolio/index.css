@@ -319,7 +319,7 @@ body {
 
     #heading {
         height: 25%;
-        width: auto;
+        width: 100vw;
         position: relative;
         word-wrap: normal;
         overflow: visible;
