@@ -40,6 +40,8 @@ const projectsTab = document.getElementById("projectsTab");
 const projectBtn = document.getElementById("projectsBtn");
 const pagination = document.getElementById("pagination");
 const projectContent = document.getElementById("projectsContent");
+const contactBtn = document.getElementById("contactBtn");
+const resumeBtn = document.getElementById("resumeBtn");
 
 // Some stuff other than variables and functions
 
@@ -314,7 +316,7 @@ function clearPreviousImages() {
     projectContent.innerHTML = "";
 }
 
-// Pagination
+// Setting up pagination
 
 function showProjectImagesWithPagination(count) {
     for (let i = 0; i < projectImagesArray[count].length; i++) {
@@ -331,6 +333,19 @@ function createPageBtn() {
     pagination.innerHTML += `<button class="pageBtn">${String(pageNo)}</button>`;
     pageNo++;
 }
+
+// Setting up the download resume option
+
+resumeBtn.addEventListener("click",()=>{
+    var downloadLink = document.createElement('a');
+    downloadLink.setAttribute('download',`piyush_resume.pdf`);
+    downloadLink.setAttribute('href',"/piyush's resume.pdf");
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+});
+
+
 
 
 
