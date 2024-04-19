@@ -453,6 +453,6 @@ body {
 
 @media screen and (min-width:426px) and (max-width:442px) {
     #heading {
-        width: 95vw;
+        width: 100vw;
     }
 }
