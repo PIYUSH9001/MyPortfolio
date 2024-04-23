@@ -319,10 +319,11 @@ body {
 
     #heading {
         height: 25%;
-        width: 100vw;
+        width: 100%;
         position: relative;
         word-wrap: normal;
         overflow: visible;
+        padding:5%;
         left: 0%;
         top: 30%;
     }
@@ -451,8 +452,10 @@ body {
     }
 }
 
-@media screen and (min-width:426px) and (max-width:442px) {
-    #heading {
-        width: 100vw;
+@media screen and (min-width:700px) and (max-width:1024){
+    #MyImage{
+        height:25%;
+        width:30%;
+
     }
 }

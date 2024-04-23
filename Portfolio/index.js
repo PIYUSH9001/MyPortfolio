@@ -336,13 +336,13 @@ function createPageBtn() {
 
 // Setting up the download resume option
 
- resumeBtn.addEventListener("click",()=>{
-     var downloadLink = document.createElement('a');
-     downloadLink.setAttribute('download',`./piyush_resume.pdf`);
-     downloadLink.setAttribute('href',"./piyush's resume.pdf");
+resumeBtn.addEventListener("click",()=>{
+    var downloadLink = document.createElement('a');
+    downloadLink.setAttribute('download',`./piyush_resume.pdf`);
+    downloadLink.setAttribute('href',"./piyush's resume.pdf");
     document.body.appendChild(downloadLink);
-     downloadLink.click();
-     document.body.removeChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
 });
 
 
