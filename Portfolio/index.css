@@ -12,25 +12,24 @@ body {
 .container {
     height: 100vh;
     width: 100vw;
-    padding-bottom: 20px;
+    padding-bottom: 10%;
     background-color: black;
 }
 
 #content {
-
     height: 50%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 5%;
 }
 
 #navBar {
     visibility: visible;
     opacity: 1;
-    height: 70px;
+    height: 14%;
     width: 100%;
-    padding: 10px;
+    padding: 1%;
     background-color: rgb(133, 26, 7);
 
 }
@@ -40,16 +39,16 @@ body {
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    padding: 10px;
+    padding: 0.7em;
 }
 
 .navItems {
     color: white;
-    padding: 8px;
+    padding: 0.5em;
     margin: 3px;
     cursor: pointer;
     transition: 0.5s;
-    border-radius: 25px;
+    border-radius: 1.5em;
 }
 
 #heading {
@@ -62,21 +61,21 @@ body {
     position: relative;
     left: 10%;
     top: 5%;
-    padding: 7px;
-    margin: 5px;
+    padding: 0.25em;
+    margin: 0.25em;
 }
 
 #subHeading {
-    height: 400px;
-    width: 400px;
+    height: 75%;
+    width: 45%;
     word-wrap: break-word;
     display: inline;
     color: white;
     position: relative;
     top: 4%;
     left: 10%;
-    padding: 7px;
-    margin: 5px;
+    padding: 0.5em;
+    margin: 0.25em;
     font-weight: bold;
     text-shadow: 1px 1px blue;
 }
@@ -88,14 +87,14 @@ body {
     position: absolute;
     top: 15%;
     right: 7%;
-    margin: 10px;
-    padding: 5px;
+    margin: 0.6em;
+    padding: 0.3em;
 }
 
 .footerIcons {
-    padding: 5px;
-    height: 60px;
-    width: 60px;
+    padding: 0.25em;
+    height: 4em;
+    width: 4em;
     background-color: white;
     border-radius: 50%;
     transition: 0.5s;
@@ -105,7 +104,7 @@ body {
 #footer {
     position: absolute;
     bottom: 5%;
-    padding: 5px;
+    padding:0.25em;
     width: 100%;
 }
 
@@ -116,8 +115,8 @@ body {
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    padding: 10px;
-    margin: 10px;
+    padding: 0.65em;
+    margin: 0.65em;
     overflow: hidden;
 }
 
@@ -152,27 +151,27 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
-    padding: 20px;
-    margin: 10px;
+    padding: 1.25em;
+    margin: 0.65em;
     position: absolute;
     top: 20%;
     left: 25%;
     height: 70%;
     width: 50%;
-    border-radius: 20px;
+    border-radius: 1.25em;
     background-color: white;
     z-index: 1;
 }
 
 #skillsList {
     position: relative;
-    bottom: 15px;
+    bottom: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    padding: 5px;
+    padding: 0.3em;
     height: 100%;
     width: 90%;
 }
@@ -185,9 +184,9 @@ body {
     text-shadow: 1px 1px rgb(0, 0, 0);
     font-weight: bold;
     background-color: lightblue;
-    padding: 7px;
-    border-radius: 30px;
-    height: 80px;
+    padding: 0.5em;
+    border-radius: 2em;
+    height: 4.5em;
     width: 100%;
 }
 
@@ -211,12 +210,12 @@ body {
 .skillIcons {
     cursor: pointer;
     object-fit: cover;
-    height: 40px;
-    width: 40px;
+    height: 2.25em;
+    width: 2.25em;
     position: relative;
-    bottom: 10px;
+    bottom: 0.45em;
     border-radius: 50%;
-    padding: 2px;
+    padding: 0.1em;
     background-color: white;
     overflow: hidden;
 }
@@ -260,7 +259,7 @@ body {
     align-self: center;
     justify-self: center;
     margin: 5;
-    border-radius: 10px;
+    border-radius: 0.625em;
     transition: 0.5s;
     opacity: 1;
     cursor: pointer;
@@ -281,17 +280,17 @@ body {
     outline: none;
     background-color: skyblue;
     color: black;
-    border-radius: 10px;
-    padding: 2px;
+    border-radius: 0.625em;
+    padding: 0.1em;
     font-weight: bold;
     font-size: 1.1em;
     cursor: pointer;
-    margin: 1px;
+    margin: 0.05em;
 }
 
 
 
-@media screen and (min-width:320px) and (max-width:680px) {
+@media screen and (min-width:320px) and (max-width:1024px) {
     * {
         -webkit-tap-highlight-color: transparent;
     }
@@ -337,11 +336,11 @@ body {
     }
 
     #menuIcon {
-        height: 60px;
-        width: 60px;
+        height:4.5em;
+        width: 4.5em;
         border-radius: 50%;
         background-color: rgb(255, 255, 255);
-        padding: 2px;
+        padding: 0.1em;
         outline: none;
         border: none;
     }
@@ -352,9 +351,9 @@ body {
         border: none;
         border-radius: 50%;
         outline: none;
-        height: 60px;
-        width: 60px;
-        margin: 10px;
+        height:4.5em;
+        width: 4.5em;
+        margin: 0.625em;
     }
 
     #navBar {
@@ -377,7 +376,7 @@ body {
 
     .navItems {
         font-size: 1.5em;
-        padding: 10px;
+        padding: 0.625em;
         text-align: center;
     }
 
@@ -408,7 +407,7 @@ body {
     .skillItems h3 {
         font-size: 1.1em;
         position: relative;
-        bottom: 5%;
+        bottom: 8%;
     }
 
     .skillIcons {
@@ -437,8 +436,8 @@ body {
     }
 
     .closeBtn {
-        height: 8%;
-        width: 18%;
+        height: 3em;
+        width:3em;
     }
 
     .pageBtn {
@@ -452,10 +451,21 @@ body {
     }
 }
 
-@media screen and (min-width:700px) and (max-width:1024){
-    #MyImage{
-        height:25%;
-        width:30%;
+@media screen and (min-width:700px) and (max-width:1025px){
+    .closeBtn{
+        height:5em;
+        width:5em;
+    }
+    #menuIcon {
+        height:6em;
+        width: 6em;
+        padding: 0.1em;
+    }
 
+    #menuBtn {
+        height:6em;
+        width: 6em;
+        margin: 1em;
     }
 }
+
